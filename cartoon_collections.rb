@@ -1,9 +1,10 @@
 def roll_call_dwarves(array)
   new_array = []
   i = 0
-  array.each_with_index do |dwarve|
+  array.each_with_index { |dwarve, index|
     puts array[i]
     i += 1
+  }
   end
 end
 
