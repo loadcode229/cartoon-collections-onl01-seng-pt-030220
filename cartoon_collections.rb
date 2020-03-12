@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   new_array = []
   i = 0
   array.each_with_index { |dwarve, index|
-    puts array[i]
+    puts index array
     i += 1
   }
   end
